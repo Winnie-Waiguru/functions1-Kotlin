@@ -2,7 +2,7 @@ fun main(){
     greetings("Waiguru")
     remainder(100, 3)
     add(23, 58,78, 90)
-    interesting("that I love doing DIY projects.")
+    interesting("The fact that I love doing DIY projects.")
 }
 
 fun greetings(name: String){
@@ -24,6 +24,6 @@ fun add(p:Int, q: Int, r: Int, s:Int){
 }
 
 fun interesting(statement: String){
-    var aboutYou=("What is so interesting about me is " + statement)
-    println(aboutYou)
+    var question=("What is so interesting about you? " + statement)
+    println(question)
 }
